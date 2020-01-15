@@ -20,14 +20,14 @@ class Song
     s = self.new
     s.name = song_name
     s
-  end 
+  end
 
   def self.create_by_name(song_name_file)
     s = self.new
-    s = self.name 
+    s = self.name
     s
   end 
-    
+
 
 
 
