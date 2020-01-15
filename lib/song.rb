@@ -22,11 +22,11 @@ class Song
     s
   end
 
-  def self.create_by_name(song_name_file)
-    s = self.new
-    s = self.name
+  def self.create_by_name(song_name)
+    s = self.create
+    s = song_name
     s
-  end 
+  end
 
 
 
