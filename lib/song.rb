@@ -4,7 +4,7 @@ class Song
 
   def initialize(name)
     @name = name
-    save 
+    save
   end
 
   def self.all
@@ -16,6 +16,8 @@ class Song
   end
 
   def self.create
+    
+  end
 
 
 end
